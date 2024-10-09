@@ -1,0 +1,23 @@
+footer {
+    background-color: rgba(0, 0, 0, 0); /* Semi-transparent black background */
+    text-align: center; 
+    padding: 20px 0; /* Vertical padding */
+    position: relative; /* Keeps the footer at the bottom of the viewport */
+    bottom: 3; /* Stick the footer to the bottom */
+    left: 0; /* Align it with the left edge */
+    width: 100%; /* Full width of the page */
+    z-index: 1000; /* Ensures the footer is on top of other elements */
+}
+
+.footer-image {
+
+    float: right;
+    width: 70px; /* Adjust the width as necessary */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+    margin-right: 33%;
+}
+
+.footer-image:hover {
+    opacity: 0.8; /* Slightly fade the image on hover */
+}
